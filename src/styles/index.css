@@ -276,11 +276,11 @@ body {
 /* Button style */
 
 .btn-add {
-  @apply flex items-center lg:text-sm md:text-xs sm:text-xs bg-white border-2 p-2 mr-3 my-4 rounded-md text-black justify-center hover:bg-blue-500 hover:text-white hover:cursor-pointer;
+  @apply w-12 xl:text-sm xs:text-xs bg-white border-2 p-2 mr-3 my-4 rounded-md text-black justify-center hover:bg-blue-500 hover:text-white hover:cursor-pointer;
 }
 
 .btn-save {
-  @apply border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-md hover:bg-blue-600 hover:text-white hover:cursor-pointer;
+  @apply w-12 border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-md hover:bg-blue-600 hover:text-white hover:cursor-pointer;
 }
 
 .btn-clear {

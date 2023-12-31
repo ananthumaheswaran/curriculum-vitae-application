@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-w-[280px] min-h-[100vh] m-0 p-0  bg-gradient-to-r from-violet-100 to-white;
+}
+
+/* Header style */
+
+.title-block {
+  @apply fixed top-0 w-full z-50 flex justify-between px-5 lg:py-11 m-0 bg-gradient-to-r from-violet-100 to-white md:py-6 sm:py-4;
+}
+.title {
+  @apply flex items-center font-semibold lg:text-4xl md:text-2xl sm:text-xl;
+}
+.title-logo {
+  @apply lg:w-6 lg:h-8 md:w-5 md:h-7 sm:w-4 sm:h-6;
+}
+
+/* Cover Info */
+
+.cover {
+  @apply lg:mt-32 lg:p-16 md:mt-20 md:p-10 sm:mt-14 sm:p-6 m-0 bg-gradient-to-r from-violet-100 to-white;
+}
+.cover-title {
+  @apply text-black font-bold lg:text-5xl md:text-3xl sm:text-2xl;
+}
+
+.cover-para {
+  @apply lg:mx-2 lg:py-5 lg:text-lg md:text-sm md:py-2 sm:mx-1 sm:text-xs;
+}
+
+/* Core Container */
+
+/* .core-container {
+  @apply lg:flex items-start lg:w-fit lg:pb-20 sm:block sm:pb-14 bg-violet-50;
+} */
+.core-container {
+  @apply lg:flex items-start pt-10 pb-20 bg-violet-100 xs:block;
+}
+
+/* Form Layout */
+
+.form-layout {
+  @apply block xl:w-fit lg:max-w-[250px] lg:min-w-fit lg:px-3 md:px-20 sm:px-2 xs:w-full xs:p-1;
+}
+
+/* CV layout  */
+
+.cv-layout {
+  @apply xl:px-5 lg:px-0 lg:pt-0 md:px-20 md:pt-10 sm:pt-5 sm:px-2 xs:p-1 xs:w-full;
+}
+
+/* .cv-layout {
+  @apply lg:w-2/4 lg:m-2 sm:block sm:w-full sm:p-3 sm:m-1 bg-slate-600;
+} */
+
+.cv-section {
+  @apply bg-white xl:pb-40 xl:m-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[600px] lg:max-w-[600px] lg:min-h-[950px]  lg:m-2 lg:mx-5 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-3 sm:py-8 sm:min-h-[600px];
+}
+
+/* All Info Input Section */
+
+.inputSection {
+  @apply bg-white border-2 rounded-md xl:text-lg xl:p-3 xl:my-2 lg:text-base lg:p-2 lg:my-1 xl:min-w-[350px] xl:max-w-[450px] xl:min-h-[100px] lg:min-w-[250px] lg:max-w-[350px] lg:min-h-[200px] xs:w-full md:p-4 sm:p-2;
+}
+.sectionTitle {
+  @apply xl:text-xl lg:text-lg md:text-base sm:text-sm font-semibold text-center;
+}
+.infoInputForm {
+  @apply xl:p-2 xl:m-0 xs:px-1 xs:py-2;
+}
+.infoInputLabel {
+  @apply md:text-sm sm:text-xs;
+}
+.infoInputField {
+  @apply border-2 text-sm rounded-md h-auto w-full px-11 py-3 m-0;
+}
+
+/* Personal info section layout */
+
+.personalInfoSection {
+  @apply xl:pt-10 xl:px-10 lg:pt-0 lg:px-0;
+}
+.personalInfo-name {
+  @apply font-semibold text-center xl:text-5xl lg:text-3xl md:text-2xl sm:text-xl;
+}
+.personalInfo-headline {
+  @apply font-semibold text-center xl:text-xl md:pb-4 lg:text-lg lg:pb-2 md:text-base sm:text-sm sm:pb-1;
+}
+/* .personalInfo-contact-list-title {
+  @apply text-xl font-bold p-4;
+} */
+.personalInfo-contact-list {
+  @apply md:flex items-center justify-center lg:pb-5 md:pb-3 sm:pb-2 border-b-2 border-b-gray-500;
+}
+.personalInfo-contact-listItem {
+  @apply flex items-center text-center px-1 xl:text-base md:text-sm md:whitespace-nowrap sm:text-xs;
+}
+.svg-size {
+  @apply xl:w-7 xl:h-5 md:w-6 md:h-4 xs:w-5 xs:h-3;
+}
+.personalInfo-aboutMe-title {
+  @apply xl:text-xl xl:pb-2 xl:pt-6  lg:pb-2 lg:pt-3 md:text-base md:pb-1 md:pt-2 sm:text-sm sm:pb-1 sm:pt-1;
+}
+.personalInfo-aboutMe-content {
+  @apply text-justify xl:text-base md:text-sm sm:text-xs;
+}
+/* .personalInfoSection {
+  @apply pt-11 px-14 mt-8;
+}
+.personalInfo-name {
+  @apply font-semibold p-10   text-6xl text-center  border-b-2  border-slate-200;
+}
+.personalInfo-headline {
+  @apply text-3xl text-center justify-center m-10;
+}
+.personalInfo-innerContainer {
+  @apply flex items-start  pt-11;
+}
+.personalInfo-contact-list {
+  @apply w-1/2;
+}
+.personalInfo-contact-list-title {
+  @apply text-xl font-bold p-4;
+}
+.personalInfo-contact-listItem {
+  @apply flex items-center p-2;
+}
+
+.personalInfo-aboutMe {
+  @apply w-1/2;
+}
+.personalInfo-aboutMe-title {
+  @apply text-xl font-bold p-2;
+}
+.personalInfo-aboutMe-content {
+  @apply text-justify p-2;
+} */
+
+/* Education and experience section layout container */
+/* .cv-layout-inner-container {
+  @apply pb-80  flex items-start justify-between;
+} */
+
+/* Education info section layout */
+
+.educationInfoSection {
+  @apply xl:pt-6 xl:px-10 lg:pt-3 lg:px-0 md:pt-2 sm:pt-1;
+}
+.educationInfo-title {
+  @apply xl:text-xl xl:pb-2 lg:text-base lg:pb-2 md:pb-1 md:text-base sm:text-sm sm:pb-1;
+}
+/* .educationInfo-list {
+  @apply py-5;
+} */
+.educationInfo-listItem-title {
+  @apply font-semibold xl:text-base lg:text-sm md:text-sm sm:text-xs;
+}
+.educationSectionLine1,
+.educationSectionLine2 {
+  @apply flex items-center justify-between xl:text-base lg:text-sm md:text-sm sm:text-xs;
+}
+.educationSectionLine2 {
+  @apply xl:pb-1 lg:pb-1;
+}
+/* .educationInfo-listItem-sub {
+  @apply text-lg;
+} */
+/* {
+  @apply flex items-center justify-between pb-4;
+} */
+/* .educationInfoSection {
+  @apply px-14 w-1/2;
+}
+
+.educationInfo-title {
+  @apply text-xl font-bold p-2;
+}
+.educationInfo-listItem-title {
+  @apply text-lg p-2;
+}
+.educationInfo-listItem-sub {
+  @apply text-justify  px-2;
+}
+.educationInfo-listItem {
+  @apply text-justify font-light px-2;
+} */
+
+/* Experience info section  layout*/
+
+.experienceInfoSection {
+  @apply xl:pt-6 xl:px-10 lg:pt-3 lg:px-0 md:pt-2 sm:pt-1;
+}
+
+.experienceInfo-title {
+  @apply xl:text-xl xl:pb-2 lg:text-base lg:pb-2 md:pb-1 md:text-base sm:text-sm;
+}
+.experienceInfo-content-title {
+  @apply font-semibold xl:text-base lg:text-sm md:text-sm sm:text-xs;
+}
+.experienceInfo-content-des {
+  @apply text-justify xl:pb-3 lg:pb-2 xl:text-base lg:text-sm md:text-sm md:pb-2 sm:text-xs sm:pb-1;
+}
+.experienceInfo-content-sub {
+  @apply text-justify xl:text-base lg:text-sm md:text-sm sm:text-xs;
+}
+.experienceInfo-content {
+  @apply text-justify xl:text-base lg:text-sm md:text-sm sm:text-xs;
+}
+/* .experienceInfoSection {
+  @apply pr-14 w-1/2;
+}
+.experienceInfo-title {
+  @apply text-xl font-bold p-2;
+}
+
+.experienceInfo-content-title {
+  @apply text-lg p-2;
+}
+.experienceInfo-content-sub {
+  @apply text-justify px-2;
+}
+.experienceInfo-content {
+  @apply text-justify font-light px-2;
+}
+.experienceInfo-content-des {
+  @apply py-1  text-justify font-light px-2;
+} */
+
+/* collapse section */
+
+.collapse-header {
+  @apply text-start w-full justify-between md:py-3 sm:py-2 md:text-base sm:text-sm font-light;
+}
+.collapse-section {
+  @apply flex items-center;
+}
+
+/* Footer Style */
+.footer-section {
+  @apply bg-gradient-to-r from-white to-gray-100 xl:p-10 lg:p-9 md:p-8 sm:p-6;
+}
+
+.footer-para {
+  @apply font-light text-center  xl:text-lg lg:text-base sm:text-sm;
+}
+
+.footer-list {
+  @apply text-center flex items-start xl:p-4 md:p-2 sm:p-1;
+}
+
+.footer-list-item-section {
+  @apply w-1/3;
+}
+
+.footer-list-item-title {
+  @apply font-semibold xl:text-xl xl:p-2 lg:text-lg lg:p-1 md:text-base sm:text-sm;
+}
+.footer-listItem {
+  @apply font-light xl:text-base md:text-sm sm:text-xs;
+}
+.footer-copyright {
+  @apply p-2 border-t-2 border-gray-200 xl:text-base lg:text-sm sm:text-xs;
+}
+
+/* Example Data */
+.example-data {
+  @apply px-10;
+}
+.example-section {
+  @apply flex items-center justify-center bg-violet-100 md:p-10 sm:py-3;
+}
+
+/* Button style */
+
+.btn-add {
+  @apply flex items-center lg:text-sm md:text-xs sm:text-xs bg-white border-2 p-2 mr-3 my-4 rounded-md text-black justify-center hover:bg-blue-500 hover:text-white hover:cursor-pointer;
+}
+
+.btn-save {
+  @apply border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-md hover:bg-blue-600 hover:text-white hover:cursor-pointer;
+}
+
+.btn-clear {
+  @apply border-2 p-2 m-2 xl:text-sm xs:text-xs rounded-md hover:cursor-pointer;
+}
+
+.btn-delete {
+  @apply border-2 text-xs p-2 m-2  rounded-md hover:bg-red-600 hover:text-white hover:cursor-pointer;
+}
+
+.btn-download {
+  @apply border-2 lg:text-base lg:p-2 rounded-md bg-white text-black hover:bg-blue-500 hover:text-white hover:cursor-pointer md:text-sm md:p-1 sm:text-xs sm:p-1;
+}
+.btn-exampleData {
+  @apply border-2  lg:text-base mx-3 p-2 md:text-xs sm:text-xs rounded-md bg-white text-black  hover:bg-blue-500 hover:text-white hover:cursor-pointer;
+}
+
+/* Form section Button Arrangement */
+.outer-btn-container {
+  @apply flex items-center justify-center;
+}
+.inner-btn-container {
+  @apply flex items-start justify-between;
+}
+
+.btn-container {
+  @apply flex items-center justify-between;
+}

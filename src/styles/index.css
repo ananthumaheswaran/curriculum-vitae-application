@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply min-w-[280px] min-h-[100vh] m-0 p-0  bg-gradient-to-r from-gray-900 via-gray-950 to-gray-950;
+  @apply font-sans min-w-[280px] min-h-[100vh] m-0 p-0  bg-gradient-to-r from-gray-900 via-gray-950 to-gray-950;
 }
 
 /* Header style */
@@ -36,18 +36,18 @@ body {
   @apply lg:flex items-start lg:w-fit lg:pb-20 sm:block sm:pb-14 bg-violet-50;
 } */
 .core-container {
-  @apply lg:flex items-start pt-10 pb-20 bg-gradient-to-r from-gray-900 via-gray-950 to-gray-950 xs:block;
+  @apply xl:justify-center lg:flex items-start lg:justify-center pt-10 pb-20 xs:block bg-gradient-to-r  from-gray-900 via-gray-950 to-gray-950;
 }
 /* Form Layout */
 
 .form-layout {
-  @apply block xl:w-fit lg:max-w-[250px] lg:min-w-fit lg:px-3 md:px-20 sm:px-2 xs:w-full xs:p-1;
+  @apply block xl:w-fit lg:w-fit lg:pl-3 lg:pr-2 md:px-20 sm:px-2 xs:w-full xs:p-1;
 }
 
 /* CV layout  */
 
 .cv-layout {
-  @apply xl:px-5 lg:px-0 lg:pt-0 md:px-20 md:pt-10 sm:pt-5 sm:px-2 xs:p-1 xs:w-full;
+  @apply xl:w-fit xl:px-0 lg:px-0 lg:pt-0 lg:w-fit md:px-20 md:pt-10 sm:pt-5 sm:px-2 xs:p-1 xs:w-full;
 }
 
 /* .cv-layout {
@@ -55,14 +55,14 @@ body {
 } */
 
 .cv-section {
-  @apply bg-white xl:pb-40 xl:m-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[600px] lg:max-w-[600px] lg:min-h-[950px]  lg:m-2 lg:mx-5 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-4
+  @apply bg-white xl:pb-40 xl:mt-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[630px] lg:max-w-[630px] lg:min-h-[950px]  lg:mt-2 lg:ml-1 lg:mr-3 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-4
   sm:pb-24 sm:pt-10 sm:min-h-[600px];
 }
 
 /* All Info Input Section */
 
 .inputSection {
-  @apply bg-white border-2 rounded-md xl:text-lg xl:p-3 xl:my-2 lg:text-base lg:p-2 lg:my-1 xl:min-w-[450px] xl:max-w-[450px] xl:min-h-[125px] lg:min-w-[350px] lg:max-w-[350px] lg:min-h-[125px] xs:w-full xs:h-auto md:p-4 sm:p-2 mb-3;
+  @apply bg-white border-2 rounded-md xl:text-lg xl:p-3 xl:my-2 lg:text-base lg:p-2 lg:my-1 xl:min-w-[450px] xl:max-w-[450px] xl:min-h-[125px] lg:min-w-[345px] lg:max-w-[345px] lg:min-h-[125px] xs:w-full xs:h-auto md:p-4 sm:p-2 mb-3;
 }
 .sectionTitle {
   @apply xl:text-xl lg:text-lg md:text-base sm:text-sm font-semibold text-center;
@@ -278,7 +278,7 @@ body {
 }
 
 .btn-save {
-  @apply w-12 border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-3xl bg-gray-200 hover:bg-gray-950 hover:border-gray-950  hover:text-white hover:cursor-pointer;
+  @apply w-12 border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-3xl bg-gray-200 hover:bg-blue-800 hover:border-blue-800  hover:text-white hover:cursor-pointer;
 }
 
 .btn-clear {
@@ -290,10 +290,10 @@ body {
 }
 
 .btn-download {
-  @apply border-2 lg:text-base lg:p-2 rounded-xl bg-gray-200 text-black hover:bg-gray-950 hover:text-white hover:cursor-pointer md:text-sm md:p-1 sm:text-xs sm:p-1;
+  @apply border-2 lg:text-base lg:p-2 rounded-xl hover:bg-gray-200 text-white bg-gray-950 hover:text-black hover:cursor-pointer md:text-sm md:p-1 sm:text-xs sm:p-1;
 }
 .btn-exampleData {
-  @apply border-2  lg:text-base mx-3 p-2 md:text-xs sm:text-xs rounded-3xl bg-gray-200 text-black  hover:bg-gray-950 hover:text-white hover:cursor-pointer;
+  @apply border-2  lg:text-base mx-3 p-2 md:text-xs sm:text-xs rounded-3xl hover:bg-gray-200 hover:text-black  bg-gray-950 text-white hover:cursor-pointer;
 }
 
 /* Form section Button Arrangement */

@@ -57,7 +57,8 @@ body {
 } */
 
 .cv-section {
-  @apply bg-white xl:pb-40 xl:m-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[600px] lg:max-w-[600px] lg:min-h-[950px]  lg:m-2 lg:mx-5 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-10 sm:pb-24 sm:pt-10 sm:min-h-[600px];
+  @apply bg-white xl:pb-40 xl:m-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[600px] lg:max-w-[600px] lg:min-h-[950px]  lg:m-2 lg:mx-5 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-4
+  sm:pb-24 sm:pt-10 sm:min-h-[600px];
 }
 
 /* All Info Input Section */
@@ -75,7 +76,7 @@ body {
   @apply md:text-sm sm:text-xs;
 }
 .infoInputField {
-  @apply border-2 text-sm rounded-md h-auto w-full px-11 py-3 m-0;
+  @apply border-2 md:text-sm xs:text-xs rounded-md h-auto w-full md:px-8 xs:px-3 py-3 m-0;
 }
 
 /* Personal info section layout */
@@ -232,7 +233,7 @@ body {
 /* collapse section */
 
 .collapse-header {
-  @apply text-start w-full justify-between md:py-3 sm:py-2 md:text-base sm:text-sm font-light;
+  @apply text-start w-full justify-between md:py-3 sm:py-2 md:text-base sm:text-sm;
 }
 .collapse-section {
   @apply flex items-center;

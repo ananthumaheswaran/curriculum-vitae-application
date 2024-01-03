@@ -62,7 +62,7 @@ body {
 /* All Info Input Section */
 
 .inputSection {
-  @apply bg-white border-2 rounded-md xl:text-lg xl:p-3 xl:my-2 lg:text-base lg:p-2 lg:my-1 xl:min-w-[450px] xl:max-w-[450px] xl:min-h-[125px] lg:min-w-[345px] lg:max-w-[345px] lg:min-h-[125px] xs:w-full xs:h-auto md:p-4 sm:p-2 mb-3;
+  @apply bg-gray-100 border-2 rounded-md xl:text-lg xl:p-3 xl:my-2 lg:text-base lg:p-2 lg:my-1 xl:min-w-[450px] xl:max-w-[450px] xl:min-h-[125px] lg:min-w-[345px] lg:max-w-[345px] lg:min-h-[125px] xs:w-full xs:h-auto md:p-4 sm:p-2 mb-3;
 }
 .sectionTitle {
   @apply xl:text-xl lg:text-lg md:text-base sm:text-sm font-semibold text-center;
@@ -74,6 +74,9 @@ body {
   @apply md:text-sm sm:text-xs;
 }
 .infoInputField {
+  @apply border-2 md:text-sm xs:text-xs rounded-md md:h-11 sm:h-11 w-full md:px-8 xs:px-3 py-3 m-0;
+}
+.infoInputField-des {
   @apply border-2 md:text-sm xs:text-xs rounded-md h-auto w-full md:px-8 xs:px-3 py-3 m-0;
 }
 
@@ -231,10 +234,17 @@ body {
 /* collapse section */
 
 .collapse-header {
-  @apply text-start w-full justify-between md:py-3 sm:py-2 md:text-base sm:text-sm;
+  @apply px-3 rounded-l-3xl text-start font-semibold my-1  justify-between md:py-3 sm:py-3 md:text-base sm:text-sm h-11 bg-white w-full;
+}
+.collapse-header2 {
+  @apply md:py-4 rounded-r-3xl px-2 sm:py-4 h-11 bg-white;
 }
 .collapse-section {
   @apply flex items-center;
+}
+
+.toggle-icon-size {
+  @apply md:w-6 md:h-4 sm:w-6 sm:h-4;
 }
 
 /* Footer Style */

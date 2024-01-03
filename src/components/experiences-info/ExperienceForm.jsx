@@ -59,8 +59,8 @@ const ExperienceForm = ({ experience, setExperience, setIsHeadingVisible }) => {
 
       <form onSubmit={handleExperienceSubmit} className="infoInputForm">
         {experience.map((experience, index) => (
-          <Collapse key={index} title={experience.position}>
-            <div key={index}>
+          <Collapse key={index} title={experience.position} icon="exp">
+            <div key={index} class="bg-white p-3 rounded-lg">
               <label htmlFor={`job${index}`} className="infoInputLabel">
                 Title
               </label>

@@ -192,7 +192,7 @@ const ExperienceForm = ({ experience, setExperience, setIsHeadingVisible }) => {
               <textarea
                 id={`description${index}`}
                 name={`description${index}`}
-                className="infoInputField"
+                className="infoInputField-des"
                 type="text"
                 rows="5"
                 placeholder="Enter job description"

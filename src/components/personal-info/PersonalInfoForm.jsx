@@ -104,7 +104,7 @@ const PersonalInfoForm = ({ personalInfo, setPersonalInfo }) => {
         <textarea
           id="aboutMe"
           name="aboutMe"
-          className="infoInputField"
+          className="infoInputField-des"
           type="text"
           rows="5"
           placeholder="Describe yourself"

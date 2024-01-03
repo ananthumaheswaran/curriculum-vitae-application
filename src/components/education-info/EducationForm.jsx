@@ -52,8 +52,8 @@ const EducationForm = ({ education, setEducation, setIsHeadingVisible }) => {
       <h2 className="sectionTitle">Education</h2>
       <form onSubmit={handleEducationSubmit} className="infoInputForm">
         {education.map((education, index) => (
-          <Collapse key={index} title={education.school}>
-            <div key={index}>
+          <Collapse key={index} title={education.school} icon="edu">
+            <div key={index} class="bg-white p-3 rounded-lg">
               <label htmlFor={`school${index}`} className="infoInputLabel">
                 School
               </label>

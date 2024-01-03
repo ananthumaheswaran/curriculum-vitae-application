@@ -18,7 +18,10 @@ const PersonalInfoForm = ({ personalInfo, setPersonalInfo }) => {
   return (
     <div className="inputSection">
       <h2 className="sectionTitle">Personal Details</h2>
-      <form onSubmit={handlePersonalInfoSubmit} className="infoInputForm">
+      <form
+        onSubmit={handlePersonalInfoSubmit}
+        className="personalInfoInputForm"
+      >
         <label htmlFor="name" className="infoInputLabel">
           Full Name
         </label>

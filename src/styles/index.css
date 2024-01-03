@@ -170,28 +170,6 @@ body {
 .educationSectionLine2 {
   @apply xl:pb-1 lg:pb-1;
 }
-/* .educationInfo-listItem-sub {
-  @apply text-lg;
-} */
-/* {
-  @apply flex items-center justify-between pb-4;
-} */
-/* .educationInfoSection {
-  @apply px-14 w-1/2;
-}
-
-.educationInfo-title {
-  @apply text-xl font-bold p-2;
-}
-.educationInfo-listItem-title {
-  @apply text-lg p-2;
-}
-.educationInfo-listItem-sub {
-  @apply text-justify  px-2;
-}
-.educationInfo-listItem {
-  @apply text-justify font-light px-2;
-} */
 
 /* Experience info section  layout*/
 

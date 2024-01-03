@@ -70,14 +70,17 @@ body {
 .infoInputForm {
   @apply xl:p-2 xl:m-0 xs:px-1 xs:py-2;
 }
+.personalInfoInputForm {
+  @apply bg-white rounded-lg sm:p-3 xl:m-0 xs:px-1 xs:py-2;
+}
 .infoInputLabel {
-  @apply md:text-sm sm:text-xs;
+  @apply xl:text-sm lg:text-xs md:text-sm sm:text-xs;
 }
 .infoInputField {
-  @apply border-2 md:text-sm xs:text-xs rounded-md md:h-11 sm:h-11 w-full md:px-8 xs:px-3 py-3 m-0;
+  @apply border-2 xl:text-sm lg:text-xs md:text-sm xs:text-xs rounded-md xl:h-11 lg:h-9 md:h-11 sm:h-11 w-full lg:px-3 md:px-8 xs:px-3 py-2 m-0;
 }
 .infoInputField-des {
-  @apply border-2 md:text-sm xs:text-xs rounded-md h-auto w-full md:px-8 xs:px-3 py-3 m-0;
+  @apply border-2 xl:text-sm lg:text-xs md:text-sm xs:text-xs rounded-md h-auto w-full lg:px-3 md:px-8 xs:px-3 py-2 m-0;
 }
 
 /* Personal info section layout */
@@ -234,10 +237,10 @@ body {
 /* collapse section */
 
 .collapse-header {
-  @apply px-3 rounded-l-3xl text-start font-semibold my-1  justify-between md:py-3 sm:py-3 md:text-base sm:text-sm h-11 bg-white w-full;
+  @apply px-3 rounded-l-3xl flex items-center text-start font-semibold my-1   md:py-3 sm:py-3 xl:text-base lg:text-sm md:text-base sm:text-sm h-11 bg-white w-full;
 }
-.collapse-header2 {
-  @apply md:py-4 rounded-r-3xl px-2 sm:py-4 h-11 bg-white;
+.collapse-edit-close {
+  @apply flex items-center md:py-4 rounded-r-3xl px-2 sm:py-4 h-11 bg-white;
 }
 .collapse-section {
   @apply flex items-center;

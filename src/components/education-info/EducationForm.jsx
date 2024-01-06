@@ -148,9 +148,6 @@ const EducationForm = ({ education, setEducation, setIsHeadingVisible }) => {
             buttonText="Save"
           />
         </div>
-        {/* <button type="button" onClick={handleAddEducation} className="btn">
-          Add Education
-        </button> */}
       </form>
     </div>
   );

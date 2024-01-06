@@ -213,32 +213,13 @@ const ExperienceForm = ({ experience, setExperience, setIsHeadingVisible }) => {
                   buttonText="Delete"
                 />
 
-                {/* <button
-                type="button"
-                onClick={() => handleDeleteExperience(index)}
-                className="btn-delete"
-              >
-                Delete
-              </button> */}
-
                 <Button
                   typeOf="button"
                   onClick={() => handleClearExperience(index)}
                   classForStyling="btn-clear"
                   buttonText="Clear"
                 />
-
-                {/* <button
-                type="button"
-                onClick={() => handleClearExperience(index)}
-                className="btn-clear"
-              >
-                clear
-              </button> */}
               </div>
-              {/* <button className="btn-save" type="submit">
-                Save
-              </button> */}
             </div>
           </Collapse>
         ))}
@@ -257,9 +238,6 @@ const ExperienceForm = ({ experience, setExperience, setIsHeadingVisible }) => {
             buttonText="Save"
           />
         </div>
-        {/* <button type="button" onClick={handleAddExperience} className="btn">
-          Add Experience
-        </button> */}
       </form>
     </div>
   );

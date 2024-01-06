@@ -32,9 +32,6 @@ body {
 
 /* Core Container */
 
-/* .core-container {
-  @apply lg:flex items-start lg:w-fit lg:pb-20 sm:block sm:pb-14 bg-violet-50;
-} */
 .core-container {
   @apply xl:justify-center lg:flex items-start lg:justify-center pt-10 pb-20 xs:block bg-gradient-to-r  from-gray-900 via-gray-950 to-gray-950;
 }
@@ -49,10 +46,6 @@ body {
 .cv-layout {
   @apply xl:w-fit xl:px-0 lg:px-0 lg:pt-0 lg:w-fit md:px-20 md:pt-10 sm:pt-5 sm:px-2 xs:p-1 xs:w-full;
 }
-
-/* .cv-layout {
-  @apply lg:w-2/4 lg:m-2 sm:block sm:w-full sm:p-3 sm:m-1 bg-slate-600;
-} */
 
 .cv-section {
   @apply bg-white xl:pb-40 xl:mt-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[630px] lg:max-w-[630px] lg:min-h-[950px]  lg:mt-2 lg:ml-1 lg:mr-3 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-4
@@ -94,9 +87,6 @@ body {
 .personalInfo-headline {
   @apply font-semibold text-center xl:text-xl md:pb-4 lg:text-lg lg:pb-2 md:text-base sm:text-sm sm:pb-1;
 }
-/* .personalInfo-contact-list-title {
-  @apply text-xl font-bold p-4;
-} */
 .personalInfo-contact-list {
   @apply md:flex items-center justify-center lg:pb-5 md:pb-3 sm:pb-2 border-b-2 border-b-gray-500;
 }
@@ -112,42 +102,6 @@ body {
 .personalInfo-aboutMe-content {
   @apply text-justify xl:text-base md:text-sm sm:text-xs;
 }
-/* .personalInfoSection {
-  @apply pt-11 px-14 mt-8;
-}
-.personalInfo-name {
-  @apply font-semibold p-10   text-6xl text-center  border-b-2  border-slate-200;
-}
-.personalInfo-headline {
-  @apply text-3xl text-center justify-center m-10;
-}
-.personalInfo-innerContainer {
-  @apply flex items-start  pt-11;
-}
-.personalInfo-contact-list {
-  @apply w-1/2;
-}
-.personalInfo-contact-list-title {
-  @apply text-xl font-bold p-4;
-}
-.personalInfo-contact-listItem {
-  @apply flex items-center p-2;
-}
-
-.personalInfo-aboutMe {
-  @apply w-1/2;
-}
-.personalInfo-aboutMe-title {
-  @apply text-xl font-bold p-2;
-}
-.personalInfo-aboutMe-content {
-  @apply text-justify p-2;
-} */
-
-/* Education and experience section layout container */
-/* .cv-layout-inner-container {
-  @apply pb-80  flex items-start justify-between;
-} */
 
 /* Education info section layout */
 
@@ -157,9 +111,7 @@ body {
 .educationInfo-title {
   @apply xl:text-xl xl:pb-2 lg:text-base lg:pb-2 md:pb-1 md:text-base sm:text-sm sm:pb-1;
 }
-/* .educationInfo-list {
-  @apply py-5;
-} */
+
 .educationInfo-listItem-title {
   @apply font-semibold xl:text-base lg:text-sm md:text-sm sm:text-xs;
 }
@@ -192,25 +144,6 @@ body {
 .experienceInfo-content {
   @apply text-justify xl:text-base lg:text-sm md:text-sm sm:text-xs;
 }
-/* .experienceInfoSection {
-  @apply pr-14 w-1/2;
-}
-.experienceInfo-title {
-  @apply text-xl font-bold p-2;
-}
-
-.experienceInfo-content-title {
-  @apply text-lg p-2;
-}
-.experienceInfo-content-sub {
-  @apply text-justify px-2;
-}
-.experienceInfo-content {
-  @apply text-justify font-light px-2;
-}
-.experienceInfo-content-des {
-  @apply py-1  text-justify font-light px-2;
-} */
 
 /* collapse section */
 
@@ -232,15 +165,12 @@ body {
 .footer-section {
   @apply bg-gradient-to-r from-gray-800 to-gray-700 xl:p-10 lg:p-9 md:p-8 sm:p-6;
 }
-
 .footer-para {
   @apply font-light text-center text-gray-300 xl:text-lg lg:text-base sm:text-sm;
 }
-
 .footer-list {
   @apply text-center flex items-start xl:p-4 md:p-2 sm:p-1;
 }
-
 .footer-list-item-section {
   @apply w-1/3;
 }
@@ -267,19 +197,15 @@ body {
 .btn-add {
   @apply w-12 xl:text-sm xs:text-xs bg-gray-200 border-2 p-2  mr-3 my-4 rounded-3xl text-black justify-center hover:bg-gray-950 hover:border-gray-950  hover:text-white hover:cursor-pointer;
 }
-
 .btn-save {
   @apply w-12 border-2 xl:text-sm xs:text-xs p-2 my-4  rounded-3xl bg-gray-200 hover:bg-blue-800 hover:border-blue-800  hover:text-white hover:cursor-pointer;
 }
-
 .btn-clear {
   @apply text-black border-2 p-2 m-2 xl:text-sm xs:text-xs rounded-3xl hover:cursor-pointer bg-gray-200 hover:text-white hover:bg-gray-950 hover:border-gray-950;
 }
-
 .btn-delete {
   @apply border-2 text-xs p-2 m-2  rounded-3xl bg-gray-200 hover:border-red-600 hover:bg-red-600 hover:text-white hover:cursor-pointer;
 }
-
 .btn-download {
   @apply border-2 lg:p-1 rounded-3xl lg:w-24 md:w-24 xs:w-20 hover:bg-gray-200 text-white bg-gray-950 hover:text-black hover:cursor-pointer md:text-sm md:p-1 sm:text-xs sm:p-1;
 }
@@ -294,7 +220,6 @@ body {
 .inner-btn-container {
   @apply flex items-start justify-between;
 }
-
 .btn-container {
   @apply flex items-center justify-between;
 }

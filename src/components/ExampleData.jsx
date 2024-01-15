@@ -101,12 +101,12 @@ const ExampleData = ({
         typeOf={"button"}
         onClick={handleLoadExampleData}
         classForStyling="btn-exampleData"
-        buttonText="Load Example"
+        buttonText="Demo Data"
       />
       <Button
         typeOf={"button"}
         onClick={handleClearExampleData}
-        buttonText="Clear Example"
+        buttonText="Clear"
         classForStyling="btn-exampleData"
       />
     </div>

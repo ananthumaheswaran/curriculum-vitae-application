@@ -46,7 +46,6 @@ body {
 .cv-layout {
   @apply xl:w-fit xl:px-0 lg:px-0 lg:pt-0 lg:w-fit md:px-20 md:pt-10 sm:pt-5 sm:px-2 xs:p-1 xs:w-full;
 }
-
 .cv-section {
   @apply bg-white xl:pb-40 xl:mt-3 xl:min-w-[900px] xl:max-w-[900px] xl:min-h-[1200px] lg:min-w-[630px] lg:max-w-[630px] lg:min-h-[950px]  lg:mt-2 lg:ml-1 lg:mr-3 md:w-full md:min-h-[900px] md:px-10 md:py-10 sm:px-4
   sm:pb-24 sm:pt-10 sm:min-h-[600px];
@@ -111,7 +110,6 @@ body {
 .educationInfo-title {
   @apply xl:text-xl xl:pb-2 lg:text-base lg:pb-2 md:pb-1 md:text-base sm:text-sm sm:pb-1;
 }
-
 .educationInfo-listItem-title {
   @apply font-semibold xl:text-base lg:text-sm md:text-sm sm:text-xs;
 }
@@ -128,7 +126,6 @@ body {
 .experienceInfoSection {
   @apply xl:pt-6 xl:px-10 lg:pt-3 lg:px-0 md:pt-2 sm:pt-1;
 }
-
 .experienceInfo-title {
   @apply xl:text-xl xl:pb-2 lg:text-base lg:pb-2 md:pb-1 md:text-base sm:text-sm;
 }
@@ -156,7 +153,6 @@ body {
 .collapse-section {
   @apply flex items-center;
 }
-
 .toggle-icon-size {
   @apply md:w-6 md:h-4 sm:w-6 sm:h-4;
 }
@@ -210,7 +206,7 @@ body {
   @apply border-2 lg:p-1 rounded-3xl lg:w-24 md:w-24 xs:w-20 hover:bg-gray-200 text-white bg-gray-950 hover:text-black hover:cursor-pointer md:text-sm md:p-1 sm:text-xs sm:p-1;
 }
 .btn-exampleData {
-  @apply border-2  lg:text-base mx-3 p-2 md:text-xs sm:text-xs rounded-3xl hover:bg-gray-200 hover:text-black  bg-gray-950 text-white hover:cursor-pointer;
+  @apply border-2 lg:w-36 lg:text-base mx-2 px-2 py-1 md:text-xs md:w-32 sm:text-xs sm:w-24 rounded-3xl hover:bg-gray-200 hover:text-black  bg-gray-950 text-white hover:cursor-pointer;
 }
 
 /* Form section Button Arrangement */

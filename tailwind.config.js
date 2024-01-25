@@ -12,6 +12,9 @@ export default {
         xl: "1440px",
       },
     },
+    fontFamily: {
+      OpenSans: ["Open Sans", "sans-serif"],
+    },
   },
   plugins: [],
   darkMode: "class",

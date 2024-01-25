@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply font-sans min-w-[280px] min-h-[100vh] m-0 p-0 bg-gradient-to-r from-gray-900 via-gray-950 to-gray-950;
+  @apply font-OpenSans min-w-[280px] min-h-[100vh] m-0 p-0 bg-gradient-to-r from-gray-900 via-gray-950 to-gray-950;
 }
 
 /* Header style */
